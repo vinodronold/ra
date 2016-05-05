@@ -1,0 +1,65 @@
+h1, h2, h3, h4, h5, h6, p, div, nav{
+			/*font-family: 'Architects Daughter', cursive;*/
+			/* font-family: 'Raleway', sans-serif; */
+			
+		}
+		
+section{
+	padding 10px 10px 10px 10px;
+}
+
+#myPhoto{
+	float: left; 
+	margin: 0px 15px 15px 0px;
+	height: 140 px
+	width: 140 px
+}
+
+#Contentfooter {
+	background-color:#222;
+}
+
+#Contentfooter a{
+	color:#9d9d9d;
+}
+
+#Contentfooter a:hover{
+	color:#fff;
+	text-decoration:none;
+}
+
+#Contentfooter li{
+	padding-bottom:10px;
+}
+
+.jumbotron {
+    margin-bottom: 0px;
+    background-image: url("/img/Jumbotron.jpg");
+    background-position: 0% 25%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: white;
+    text-shadow: black 0.4em 0.4em 0.4em;
+}
+
+/*** For hr ***/
+.colorgraph {
+	height: 5px;
+	border-top: 0;
+	background: #c4e17f;
+	border-radius: 5px;
+	background-image: -webkit-linear-gradient(left, #c4e17f, #c4e17f 12.5%, #f7fdca 12.5%, #f7fdca 25%, #fecf71 25%, #fecf71 37.5%, #f0776c 37.5%, #f0776c 50%, #db9dbe 50%, #db9dbe 62.5%, #c49cde 62.5%, #c49cde 75%, #669ae1 75%, #669ae1 87.5%, #62c2e4 87.5%, #62c2e4);
+	background-image: -moz-linear-gradient(left, #c4e17f, #c4e17f 12.5%, #f7fdca 12.5%, #f7fdca 25%, #fecf71 25%, #fecf71 37.5%, #f0776c 37.5%, #f0776c 50%, #db9dbe 50%, #db9dbe 62.5%, #c49cde 62.5%, #c49cde 75%, #669ae1 75%, #669ae1 87.5%, #62c2e4 87.5%, #62c2e4);
+	background-image: -o-linear-gradient(left, #c4e17f, #c4e17f 12.5%, #f7fdca 12.5%, #f7fdca 25%, #fecf71 25%, #fecf71 37.5%, #f0776c 37.5%, #f0776c 50%, #db9dbe 50%, #db9dbe 62.5%, #c49cde 62.5%, #c49cde 75%, #669ae1 75%, #669ae1 87.5%, #62c2e4 87.5%, #62c2e4);
+	background-image: linear-gradient(to right, #c4e17f, #c4e17f 12.5%, #f7fdca 12.5%, #f7fdca 25%, #fecf71 25%, #fecf71 37.5%, #f0776c 37.5%, #f0776c 50%, #db9dbe 50%, #db9dbe 62.5%, #c49cde 62.5%, #c49cde 75%, #669ae1 75%, #669ae1 87.5%, #62c2e4 87.5%, #62c2e4);
+}
+
+.super-well{
+	border: 2px solid #a1a1a1;
+	padding: 10px 20px; 
+	background: #eee;
+	width: 100%;
+	height: 100%;
+	border-radius: 15px;
+	box-shadow: 5px 5px 5px #888888;
+}
